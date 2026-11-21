@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#1b2930"><meta name="description" content="Découvrez les projets de BAPARAPE Walid en automatisation IA, électronique et modélisation 3D."><title>Projets — BAPARAPE Walid</title><link rel="stylesheet" href="styles.css"></head><body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <a class="brand" href="index.html#accueil" aria-label="BAPARAPE Walid, accueil"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 54 40"><path d="M5 8h10c9 0 9 10 0 10H5m10 0c10 0 10 13 0 13H5z"/><path d="M25 8l4 23 7-15 7 15 5-23"/></svg></span><span class="brand-name">BAPARAPE Walid</span></a>
+    <nav class="main-nav" aria-label="Navigation principale"><a href="index.html#accueil">Accueil</a><a href="projets.html" aria-current="page">Projets</a><a href="services.html">Services</a><a href="index.html#approche">Approche</a><a class="nav-contact" href="index.html#contact">Me contacter <span aria-hidden="true">↗</span></a></nav>
+    <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+  </header>
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Navigation mobile" hidden><a href="index.html#accueil">Accueil</a><a href="projets.html">Projets</a><a href="services.html">Services</a><a href="index.html#approche">Approche</a><a href="index.html#contact">Me contacter ↗</a></nav>
+  <main id="contenu">
+    <section class="work-section section-pad" id="realisations">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span> AUTOMATISATION · ÉLECTRONIQUE · MODÉLISATION</p>
+          <h2><span data-heading-first>Des projets concrets.</span><br><em data-heading-second>Dans plusieurs domaines.</em></h2>
+        </div>
+        <p class="section-intro" data-section-intro>Automatisation IA, électronique et modélisation 3D : explore les besoins, les réalisations, les outils et les images de chaque projet.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrer les projets">
+        <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">Tout <span>10</span></button>
+        <button class="filter-button" type="button" data-filter="ia" aria-pressed="false">Automatisation IA <span>06</span></button>
+        <button class="filter-button" type="button" data-filter="electronique" aria-pressed="false">Électronique <span>03</span></button>
+        <button class="filter-button" type="button" data-filter="3d" aria-pressed="false">Modélisation 3D <span>01</span></button>
+      </div>
+
+      <div class="project-list">
+        <article class="project-card project-feature" data-category="ia" id="paiements">
+          <div class="project-topline"><span class="project-number">01</span><span class="project-category"><i></i> AUTOMATISATION IA</span></div>
+          <div class="project-main">
+            <div class="project-copy">
+              <p class="project-kicker">PAIEMENT · VALIDATION · DOCUMENTS</p>
+              <h3>Du paiement au reçu,<br><em>sans perdre le fil.</em></h3>
+              <div class="problem-solution">
+                <div><span class="ps-label">LE PROBLÈME</span><p>Le traitement manuel des paiements et l’envoi des justificatifs multiplient les vérifications et prennent du temps.</p></div>
+                <div><span class="ps-label ps-solution">LA SOLUTION</span><p>n8n coordonne le contrôle, la validation, la mise à jour dans Google Sheets et l’envoi du reçu par Gmail.</p></div>
+              </div>
+            </div>
+            <a class="workflow-capture" href="assets/workflows/invoice.png" data-lightbox data-caption="Automatisation de facturation et de reçus · n8n"><img src="assets/workflows/invoice.png" alt="Capture du workflow n8n de facturation et de génération des reçus"><span><b>Capture du workflow n8n</b>Ouvrir en grand <i aria-hidden="true">↗</i></span></a>
+          </div>
+          <div class="project-tools project-tools-after">OUTILS · n8n · Google Sheets · Gmail</div>
+          <div class="flow-wrap">
+            <div class="flow-title"><span>PARCOURS DU WORKFLOW</span><span>01 — 05</span></div>
+            <ol class="flow flow-five">
+              <li><span class="flow-index">01</span><b>Nouvelle entrée</b><small>Google Sheets</small></li>
+              <li><span class="flow-index">02</span><b>Vérification</b><small>infos du dossier</small></li>
+              <li class="flow-human"><span class="flow-index">03</span><b>Validation</b><small>contrôle humain</small></li>
+              <li><span class="flow-index">04</span><b>Reçu généré</b><small>document PDF</small></li>
+              <li class="flow-end"><span class="flow-index">05</span><b>Envoi client</b><small>Gmail</small></li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="project-card project-light" data-category="ia" id="documents">
+          <div class="project-topline"><span class="project-number">02</span><span class="project-category"><i></i> AUTOMATISATION IA</span></div>
+          <div class="project-main">
+            <div class="project-copy">
+              <p class="project-kicker">DOCUMENTS PÉDAGOGIQUES · ANALYSE · PRÉPARATION</p>
+              <h3>Des supports de cours<br><em>mieux préparés.</em></h3>
+              <div class="problem-solution">
+                <div><span class="ps-label">LE BESOIN</span><p>Les cours et les syllabus doivent respecter un canevas pédagogique défini. Leur vérification et leur mise en forme coûtent un temps précieux aux enseignants.</p></div>
+                <div><span class="ps-label ps-solution">LA SOLUTION</span><p>Le système compare les documents reçus au canevas préenregistré, organise le contenu dans la structure attendue et prépare les documents pour vérification.</p></div>
+              </div>
+            </div>
+            <a class="workflow-capture" href="assets/workflows/upb.png" data-lightbox data-caption="Contrôle documentaire des cours · n8n"><img src="assets/workflows/upb.png" alt="Capture du workflow n8n de contrôle documentaire des cours"><span><b>Capture du workflow n8n</b>Ouvrir en grand <i aria-hidden="true">↗</i></span></a>
+          </div>
+          <div class="project-tools project-tools-after">OUTILS · n8n · Gemini · PDF · Word</div>
+          <div class="flow-wrap">
+            <div class="flow-title"><span>ANALYSE AVEC CONTRÔLES ET BRANCHE DE COMPLÉMENT</span><span>02 — 10</span></div>
+            <ol class="flow flow-five">
+              <li><span class="flow-index">01</span><b>Cours / syllabus</b><small>formulaire</small></li>
+              <li><span class="flow-index">02</span><b>Extraction</b><small>texte & fichiers</small></li>
+              <li><span class="flow-index">03</span><b>Analyse IA</b><small>Gemini</small></li>
+              <li class="flow-branch"><span class="flow-index">04</span><b>Contrôle</b><small>complet ?</small><em>sinon → complément</em></li>
+              <li class="flow-end"><span class="flow-index">05</span><b>Rapport + Word</b><small>envoi par e-mail</small></li>
+            </ol>
+            <p class="flow-footnote">n8n extrait les PDF, Gemini les compare au canevas de référence et prépare les documents Word pour vérification. Objectif : alléger le travail répétitif des enseignants.</p>
+          </div>
+        </article>
+
+        <article class="project-card project-graphite" data-category="ia" id="candidatures">
+          <div class="project-topline"><span class="project-number">03</span><span class="project-category"><i></i> AUTOMATISATION IA</span></div>
+          <div class="project-main project-main-pair">
+            <div class="project-copy">
+              <p class="project-kicker">CANDIDATURES · QUALIFICATION · SUIVI</p>
+              <h3>Des candidatures mieux<br><em>qualifiées et suivies.</em></h3>
+              <div class="problem-solution">
+                <div><span class="ps-label">LE PROBLÈME</span><p>Le dépouillement manuel des formulaires, l’évaluation des réponses et les relances prennent du temps et ralentissent le suivi des candidats.</p></div>
+                <div><span class="ps-label ps-solution">LA SOLUTION</span><p>n8n vérifie les réponses, Gemini aide à les qualifier, Google Sheets centralise les dossiers et l’assistant facilite leur consultation et les échanges par e-mail.</p></div>
+              </div>
+            </div>
+            <div class="workflow-gallery workflow-gallery-pair"><a class="workflow-capture" href="assets/workflows/club.png" data-lightbox data-caption="Partie 1 — Qualification des candidatures du Club Robotique · n8n"><img src="assets/workflows/club.png" alt="Première partie du workflow n8n de traitement des candidatures du Club Robotique"><span><b>Partie 1 · qualification</b>Ouvrir en grand <i aria-hidden="true">↗</i></span></a><a class="workflow-capture" href="assets/workflows/club-part2.png" data-lightbox data-caption="Partie 2 — Assistant de suivi des candidatures du Club Robotique · n8n"><img src="assets/workflows/club-part2.png" alt="Deuxième partie du workflow n8n : agent conversationnel connecté aux dossiers, à Gmail et à Google Sheets"><span><b>Partie 2 · assistant de suivi</b>Ouvrir en grand <i aria-hidden="true">↗</i></span></a></div>
+          </div>
+          <div class="project-tools project-tools-after">OUTILS · n8n · Notion · Google Sheets · Gmail · OpenRouter · ChatGPT</div>
+          <div class="flow-wrap">
+            <div class="flow-title"><span>PARCOURS MÉTIER · SUITES COMPLÉMENTAIRES</span><span>03 — 10</span></div>
+            <ol class="flow flow-five">
+              <li><span class="flow-index">01</span><b>Nouvelle fiche</b><small>formulaire / tableur</small></li>
+              <li><span class="flow-index">02</span><b>Filtrage</b><small>vérification</small></li>
+              <li><span class="flow-index">03</span><b>Analyse IA</b><small>réponse structurée</small></li>
+              <li class="flow-human"><span class="flow-index">04</span><b>Suivi</b><small>Google Sheets</small></li>
+              <li class="flow-end"><span class="flow-index">05</span><b>Réponse</b><small>assistant + e-mail</small></li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="project-card project-graphite" data-category="ia" id="agent-vocal">
+          <div class="project-topline"><span class="project-number">04</span><span class="project-category"><i></i> AUTOMATISATION IA</span></div>
+          <div class="project-main"><div class="project-copy"><p class="project-kicker">CONVERSATION VOCALE · ASSISTANT IA</p><h3>Un échange vocal<br><em>de bout en bout.</em></h3><div class="problem-solution"><div><span class="ps-label">LE BESOIN</span><p>Répondre aux questions courantes des clients par la voix et orienter vers un conseiller les demandes qui nécessitent une intervention humaine.</p></div><div><span class="ps-label ps-solution">LA SOLUTION</span><p>L’agent vocal répond oralement aux questions prévues. Si la réponse ne convient pas ou si la demande est complexe, l’utilisateur est orienté vers le service client.</p></div></div></div><a class="workflow-capture" href="assets/workflows/voice.png" data-lightbox data-caption="Assistant vocal IA · n8n"><img src="assets/workflows/voice.png" alt="Capture du workflow n8n de l’assistant vocal"><span><b>Capture du workflow n8n</b>Ouvrir en grand <i aria-hidden="true">↗</i></span></a></div>
+          <div class="project-tools project-tools-after">OUTILS · n8n · Gemini · ElevenLabs</div>
+          <div class="flow-wrap"><div class="flow-title"><span>PARCOURS DE LA CONVERSATION</span><span>04 — 10</span></div><ol class="flow flow-five"><li><span class="flow-index">01</span><b>Appel entrant</b><small>webhook</small></li><li><span class="flow-index">02</span><b>Transcription</b><small>service vocal</small></li><li><span class="flow-index">03</span><b>Réponse IA</b><small>Gemini + mémoire</small></li><li><span class="flow-index">04</span><b>Synthèse vocale</b><small>ElevenLabs</small></li><li class="flow-end"><span class="flow-index">05</span><b>Réponse audio</b><small>retour à l’appelant</small></li></ol><p class="flow-footnote">L’agent prend en charge les étapes vocales répétitives et renvoie une réponse à l’appelant.</p></div>
+        </article>
+
+        <article class="project-card project-light" data-category="ia" id="veille-economique">
+          <div class="project-topline"><span class="project-number">05</span><span class="project-category"><i></i> AUTOMATISATION IA</span></div>
+          <div class="project-main"><div class="project-copy"><p class="project-kicker">VEILLE ÉCONOMIQUE · COLLECTE · NOTIFICATION</p><h3>Les événements utiles,<br><em>au bon moment.</em></h3><div class="problem-solution"><div><span class="ps-label">LE PROBLÈME</span><p>Pour les traders, suivre les prochaines annonces économiques demande de consulter régulièrement plusieurs sources en ligne. Cette veille répétée prend du temps.</p></div><div><span class="ps-label ps-solution">LA SOLUTION</span><p>Le workflow collecte et archive les annonces économiques, puis envoie un e-mail qui les récapitule.</p></div></div></div><a class="workflow-capture" href="assets/workflows/calendar.png" data-lightbox data-caption="Veille du calendrier économique · n8n"><img src="assets/workflows/calendar.png" alt="Capture du workflow n8n du calendrier économique"><span><b>Capture du workflow n8n</b>Ouvrir en grand <i aria-hidden="true">↗</i></span></a></div>
+          <div class="project-tools project-tools-after">OUTILS · n8n · Browserless · Google Sheets · Gmail</div>
+          <div class="flow-wrap"><div class="flow-title"><span>DE LA VEILLE À L’ALERTE</span><span>05 — 10</span></div><ol class="flow flow-five"><li><span class="flow-index">01</span><b>Collecte web</b><small>événements publiés</small></li><li><span class="flow-index">02</span><b>Extraction</b><small>données utiles</small></li><li><span class="flow-index">03</span><b>Préparation</b><small>annonces à suivre</small></li><li><span class="flow-index">04</span><b>Archivage</b><small>Google Sheets</small></li><li class="flow-end"><span class="flow-index">05</span><b>Notification</b><small>Gmail</small></li></ol><p class="flow-footnote">Les alertes remplacent une partie de la consultation manuelle et signalent les publications à surveiller.</p></div>
+        </article>
+
+        <article class="project-card project-graphite" data-category="ia" id="planification">
+          <div class="project-topline"><span class="project-number">06</span><span class="project-category"><i></i> AUTOMATISATION IA</span></div>
+          <div class="project-main project-main-pair">
+            <div class="project-copy">
+              <p class="project-kicker">ASSISTANT IA · PLANIFICATION · SUIVI</p>
+              <h3>Planifier ses tâches<br><em>et garder le fil.</em></h3>
+              <div class="problem-solution">
+                <div><span class="ps-label">LE BESOIN</span><p>Organiser ses tâches, préparer un plan et ne pas oublier les échéances demande un suivi régulier.</p></div>
+                <div><span class="ps-label ps-solution">LA SOLUTION</span><p>Un assistant IA prépare un plan et l’enregistre dans Notion. Des workflows suivent l’état des tâches, mettent à jour leur avancement et envoient des rappels par Gmail avant les échéances.</p></div>
+              </div>
+            </div>
+            <div class="workflow-gallery workflow-gallery-pair planning-gallery">
+              <a class="workflow-capture" href="assets/workflows/planning-1.png" data-lightbox data-caption="Assistant de planification IA · conversation et préparation du plan · n8n"><img src="assets/workflows/planning-1.png" alt="Workflow n8n de l’assistant IA qui prépare un plan de tâches"><span><b>1 · Préparer un plan</b>Ouvrir en grand <i aria-hidden="true">↗</i></span></a>
+              <a class="workflow-capture" href="assets/workflows/planning-2.png" data-lightbox data-caption="Assistant de planification IA · création et organisation dans Notion · n8n"><img src="assets/workflows/planning-2.png" alt="Workflow n8n qui organise le plan et crée les tâches dans Notion"><span><b>2 · Organiser dans Notion</b>Ouvrir en grand <i aria-hidden="true">↗</i></span></a>
+              <a class="workflow-capture" href="assets/workflows/planning-3.png" data-lightbox data-caption="Assistant de planification IA · validation et mise à jour des tâches · n8n"><img src="assets/workflows/planning-3.png" alt="Webhook n8n qui valide et met à jour l’état d’une tâche dans Notion"><span><b>3 · Mettre à jour l’état</b>Ouvrir en grand <i aria-hidden="true">↗</i></span></a>
+              <a class="workflow-capture" href="assets/workflows/planning-4.png" data-lightbox data-caption="Assistant de planification IA · détection des échéances et rappel Gmail · n8n"><img src="assets/workflows/planning-4.png" alt="Workflow n8n qui repère les tâches arrivant à échéance et envoie un rappel Gmail"><span><b>4 · Rappeler les échéances</b>Ouvrir en grand <i aria-hidden="true">↗</i></span></a>
+            </div>
+          </div>
+          <div class="project-tools project-tools-after">OUTILS · n8n · Notion · Gmail · Google Gemini · OpenAI · OpenRouter</div>
+          <div class="flow-wrap"><div class="flow-title"><span>DE LA DEMANDE AU SUIVI DES ÉCHÉANCES</span><span>4 WORKFLOWS COORDONNÉS</span></div><ol class="flow flow-five"><li><span class="flow-index">01</span><b>Demande</b><small>assistant IA</small></li><li><span class="flow-index">02</span><b>Plan préparé</b><small>tâches organisées</small></li><li><span class="flow-index">03</span><b>Enregistrement</b><small>Notion</small></li><li class="flow-human"><span class="flow-index">04</span><b>Validation</b><small>mise à jour du statut</small></li><li class="flow-end"><span class="flow-index">05</span><b>Rappel</b><small>Gmail · échéance</small></li></ol></div>
+        </article>
+
+        <article class="project-card project-light project-electronics project-watering" data-category="electronique" id="arrosage">
+          <div class="project-topline"><span class="project-number">07</span><span class="project-category"><i></i> ÉLECTRONIQUE</span></div>
+          <div class="project-main project-main-electronics watering-main">
+            <div class="project-copy">
+              <p class="project-kicker">ARDUINO · CAPTEURS · ARROSAGE AUTOMATIQUE</p>
+              <h3>Arroser les plantes<br><em>au bon moment.</em></h3>
+              <div class="problem-solution">
+                <div><span class="ps-label">LE BESOIN</span><p>Arroser les plantes selon l’humidité du sol, sans intervention manuelle systématique et en évitant les arrosages inutiles.</p></div>
+                <div><span class="ps-label ps-solution">LA RÉALISATION</span><p>Un Arduino lit les données des capteurs et commande une pompe à eau. Un écran LCD, des LED et un buzzer indiquent l’état du dispositif.</p></div>
+              </div>
+              <div class="electronics-flow" aria-label="Capteur d’humidité vers Arduino puis pompe"><span>Humidité du sol</span><b>→</b><span>Arduino</span><b>→</b><span>Pompe</span></div>
+            </div>
+            <div class="watering-photo"><a href="assets/watering-prototype.png" data-lightbox data-caption="Prototype de système d’arrosage automatique des plantes"><img src="assets/watering-prototype.png" alt="Bac de plantes équipé d’un prototype d’arrosage automatique"><span>Prototype d’arrosage automatique · ouvrir en grand ↗</span></a></div>
+          </div>
+          <div class="project-tools project-tools-after">OUTILS & COMPOSANTS · Arduino Uno · capteur d’humidité · pompe · LCD · LED · buzzer</div>
+          <div class="flow-wrap"><div class="flow-title"><span>DU SOL À L’ARROSAGE</span><span>CAPTEUR → COMMANDE</span></div><ol class="flow flow-five"><li><span class="flow-index">01</span><b>Mesure du sol</b><small>capteur d’humidité</small></li><li><span class="flow-index">02</span><b>Lecture</b><small>Arduino Uno</small></li><li><span class="flow-index">03</span><b>Décision</b><small>seuil d’humidité</small></li><li><span class="flow-index">04</span><b>Pompage</b><small>eau vers la plante</small></li><li class="flow-end"><span class="flow-index">05</span><b>État du système</b><small>LCD · LED · buzzer</small></li></ol></div>
+        </article>
+
+        <article class="project-card project-light project-electronics" data-category="electronique" id="electronique">
+          <div class="project-topline"><span class="project-number">08</span><span class="project-category"><i></i> ÉLECTRONIQUE</span></div>
+          <div class="project-main project-main-electronics">
+            <div class="project-copy">
+              <p class="project-kicker">CAPTEUR DE LUMINOSITÉ · COMMANDE DE LAMPE</p>
+              <h3>La lumière commande<br><em>le circuit.</em></h3>
+              <div class="problem-solution">
+                <div><span class="ps-label">LE BESOIN</span><p>Automatiser l’éclairage en fonction de la luminosité ambiante afin d’éclairer un espace sans devoir allumer la lampe manuellement.</p></div>
+                <div><span class="ps-label ps-solution">LA RÉALISATION</span><p>Un détecteur à LDR et transistor, simulé sur Proteus puis monté sur breadboard et vérifié dans deux conditions de lumière.</p></div>
+              </div>
+              <div class="electronics-flow" aria-label="LDR vers transistor puis lampe"><span>LDR</span><b>→</b><span>Transistor</span><b>→</b><span>Lampe</span></div>
+            </div>
+            <div class="electronics-gallery">
+              <figure class="scheme-figure"><img src="assets/ldr-schematic.jpg" alt="Schéma électronique du détecteur crépusculaire autour d'une LDR et d'un transistor"><figcaption>Schéma du circuit</figcaption></figure>
+              <figure class="board-figure board-dark"><img src="assets/ldr-dark.jpg" alt="Prototype sur breadboard avec la lampe allumée en faible luminosité"><figcaption><i></i> Faible lumière · lampe allumée</figcaption></figure>
+              <figure class="board-figure board-bright"><img src="assets/ldr-bright.jpg" alt="Prototype sur breadboard avec la lampe éteinte en forte luminosité"><figcaption><i></i> Forte lumière · lampe éteinte</figcaption></figure>
+            </div>
+          </div>
+          <div class="project-tools project-tools-after">COMPOSANTS & LOGICIELS · LDR · transistor · Proteus</div>
+        </article>
+
+        <article class="project-card project-light project-electronics" data-category="electronique" id="pcb">
+          <div class="project-topline"><span class="project-number">09</span><span class="project-category"><i></i> ÉLECTRONIQUE</span></div>
+          <div class="project-main project-main-electronics"><div class="project-copy"><p class="project-kicker">SCHÉMA · ROUTAGE PCB · FABRICATION</p><h3>Du schéma électronique<br><em>à la carte réelle.</em></h3><div class="problem-solution"><div><span class="ps-label">LE PROJET</span><p>Concevoir un circuit de signalisation lumineuse à LED autour d’un NE555.</p></div><div><span class="ps-label ps-solution">RÉALISATION</span><p>Conception du schéma sous Proteus, routage du circuit imprimé et participation à la fabrication et au montage de la carte.</p></div></div></div><div class="electronics-gallery pcb-gallery"><figure><img src="assets/pcb-schematic.png" alt="Schéma d’un circuit à NE555 commandant deux rangées de LED rouges et vertes dans Proteus ISIS"><figcaption>Schéma électronique · Proteus ISIS</figcaption></figure><figure><img src="assets/pcb-layout.png" alt="Routage de la carte électronique dans Proteus ARES"><figcaption>Routage du circuit imprimé · Proteus ARES</figcaption></figure><figure><img src="assets/pcb-traces-held.svg" alt="Plaquette cuivrée tenue en main avec le tracé transféré"><figcaption>Tracé transféré sur la plaquette cuivrée</figcaption></figure><figure><img src="assets/pcb-assembled-held.svg" alt="Carte électronique tenue en main avec les composants câblés et montés"><figcaption>Carte assemblée · composants montés</figcaption></figure></div></div>
+          <div class="project-tools project-tools-after">COMPOSANTS & LOGICIELS · NE555 · Proteus ISIS · Proteus ARES</div>
+          <div class="flow-wrap"><div class="flow-title"><span>DU CONCEPT AU CIRCUIT IMPRIMÉ</span><span>CONCEPTION → FABRICATION</span></div><ol class="flow flow-five"><li><span class="flow-index">01</span><b>Schéma</b><small>Proteus ISIS</small></li><li><span class="flow-index">02</span><b>Routage</b><small>Proteus ARES</small></li><li><span class="flow-index">03</span><b>Contrôle 3D</b><small>implantation</small></li><li><span class="flow-index">04</span><b>Transfert</b><small>gravure du cuivre</small></li><li class="flow-end"><span class="flow-index">05</span><b>Assemblage</b><small>carte montée</small></li></ol></div>
+        </article>
+
+        <article class="project-card project-3d" data-category="3d" id="modelisation">
+          <div class="project-topline"><span class="project-number">10</span><span class="project-category"><i></i> MODÉLISATION 3D</span></div>
+          <div class="project-main project-main-3d">
+            <div class="project-copy">
+              <p class="project-kicker">BUANDERIE INTELLIGENTE · MODÈLE 3D & MAQUETTE</p>
+              <h3>Du modèle 3D<br><em>au prototype réel.</em></h3>
+              <div class="problem-solution">
+                <div><span class="ps-label">LE PROJET</span><p>Concevoir l’aménagement d’une buanderie intelligente et visualiser ses modules avant leur fabrication.</p></div>
+                <div><span class="ps-label ps-solution">DU MODÈLE AU RÉEL</span><p>Les modules modélisés sous Fusion 360 ont été fabriqués en maquette réelle, puis testés pour rendre le dispositif concret.</p></div>
+              </div>
+            </div>
+            <div class="cad-gallery">
+              <figure><img src="assets/laundry-layout-3d.png" alt="Vue en perspective 3D de l’aménagement intérieur de la buanderie"><figcaption>Aménagement 3D · Fusion 360</figcaption><span class="cad-stamp">FUSION<br>360</span></figure>
+              <figure><img src="assets/laundry-model-details.jpg" alt="Modèles 3D des modules de récupération du linge et de paiement"><figcaption>Détails des modules modélisés</figcaption></figure>
+              <figure><img src="assets/laundry-prototype-room.png" alt="Maquette réelle de la buanderie avec ses équipements en bois"><figcaption>Maquette réelle de la buanderie</figcaption></figure>
+              <figure><img src="assets/laundry-prototype-module.png" alt="Prototype physique d’un module réalisé en bois"><figcaption>Prototype réel d’un module</figcaption></figure>
+            </div>
+          </div>
+          <div class="project-tools project-tools-after">OUTIL DE MODÉLISATION · Fusion 360</div>
+          <div class="project-bottom-note"><span>MODÈLE & MAQUETTE</span><span>Prototype fabriqué et testé</span></div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="index.html#accueil"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 54 40"><path d="M5 8h10c9 0 9 10 0 10H5m10 0c10 0 10 13 0 13H5z"/><path d="M25 8l4 23 7-15 7 15 5-23"/></svg></span><span class="brand-name">BAPARAPE Walid</span></a><p>Automatisation maîtrisée. Électronique concrète. Modélisation appliquée.</p><a class="back-top" href="#contenu">Retour en haut ↑</a><small>© 2026 BAPARAPE WALID</small></footer>
+  <dialog class="image-dialog" aria-label="Image du projet"><form method="dialog"><button class="image-dialog-close" aria-label="Fermer l’image">Fermer <span aria-hidden="true">×</span></button></form><img alt=""><p></p></dialog><script src="script.js"></script>
+</body></html>

@@ -3,9 +3,9 @@ PORTFOLIO — BAPARAPE WALID
 Le site est statique et prêt à être hébergé.
 
 - Ouvrir index.html pour parcourir le portfolio.
-- Conserver le dossier assets avec index.html, styles.css et script.js.
+- Conserver le dossier assets avec index.html, projets.html, services.html, styles.css et script.js.
 - Le numéro WhatsApp, l’adresse e-mail et les textes sont modifiables dans index.html.
 - Les styles et la mise en page sont dans styles.css.
 - Les filtres de projets sont dans script.js.
 
-Le portfolio présente neuf projets : six en automatisation IA, deux en électronique et un en modélisation 3D. Chaque fiche d’automatisation comprend un schéma simplifié et une capture n8n ouvrable en grand. Les projets du Club Robotique et W1 présentent deux captures chacun. Toutes les images des réalisations peuvent être ouvertes en grand en cliquant dessus.
+Le portfolio présente 10 projets : six en automatisation IA, trois en électronique et un en modélisation 3D. Le projet d’assistant de planification comprend quatre workflows n8n.
